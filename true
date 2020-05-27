@@ -1,0 +1,265 @@
+[1590451674.039][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 19026
+[1590451674.039][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590451674.526][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1590451674.530][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1590451674.539][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1590451674.592][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\User\AppData\Local\Temp\scoped_dir16576_1402683665\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\User\AppData\Local\Temp\scoped_dir16576_1363250975" data:,
+[1590451675.512][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1590451677.525][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "C:\\Users\\User\\AppData\\Local\\Temp\\scoped_dir16576_1363250975"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63842"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "5a3b4af6a212eec4f14b5a206ab3265a"
+}
+[1590451677.632][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND SetTimeouts {
+   "implicit": 15000
+}
+[1590451677.632][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE SetTimeouts
+[1590451677.639][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND Navigate {
+   "url": "http://166.62.36.207/humanresources/symfony/web/index.php/auth/login"
+}
+[1590451677.639][INFO]: Waiting for pending navigations...
+[1590451677.642][INFO]: Done waiting for pending navigations. Status: ok
+[1590451678.271][INFO]: Waiting for pending navigations...
+[1590451678.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451678.478][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451678.579][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451678.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451678.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451678.984][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451679.128][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.128][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE Navigate
+[1590451679.149][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtUsername"
+}
+[1590451679.149][INFO]: Waiting for pending navigations...
+[1590451679.150][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.176][INFO]: Waiting for pending navigations...
+[1590451679.177][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.177][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "887d22d5-4169-4f63-aef7-b917cb6f0dc1"
+}
+[1590451679.183][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#txtPassword"
+}
+[1590451679.184][INFO]: Waiting for pending navigations...
+[1590451679.184][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.216][INFO]: Waiting for pending navigations...
+[1590451679.217][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.217][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ff025b20-9d09-42fc-a61b-57b9170ccb89"
+}
+[1590451679.225][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#btnLogin"
+}
+[1590451679.225][INFO]: Waiting for pending navigations...
+[1590451679.234][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.266][INFO]: Waiting for pending navigations...
+[1590451679.267][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.267][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d791e8c4-2d9e-4186-a15a-f86755374c4a"
+}
+[1590451679.276][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND ClearElement {
+   "id": "887d22d5-4169-4f63-aef7-b917cb6f0dc1"
+}
+[1590451679.276][INFO]: Waiting for pending navigations...
+[1590451679.278][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.310][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1590451679.323][INFO]: Waiting for pending navigations...
+[1590451679.324][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.324][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE ClearElement
+[1590451679.335][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND TypeElement {
+   "id": "887d22d5-4169-4f63-aef7-b917cb6f0dc1",
+   "text": "Admin",
+   "value": [ "A", "d", "m", "i", "n" ]
+}
+[1590451679.335][INFO]: Waiting for pending navigations...
+[1590451679.336][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.419][INFO]: Waiting for pending navigations...
+[1590451679.420][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.420][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE TypeElement
+[1590451679.424][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND ClearElement {
+   "id": "ff025b20-9d09-42fc-a61b-57b9170ccb89"
+}
+[1590451679.424][INFO]: Waiting for pending navigations...
+[1590451679.425][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.475][INFO]: Waiting for pending navigations...
+[1590451679.475][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.475][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE ClearElement
+[1590451679.480][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND TypeElement {
+   "id": "ff025b20-9d09-42fc-a61b-57b9170ccb89",
+   "text": "Hum@nhrm123",
+   "value": [ "H", "u", "m", "@", "n", "h", "r", "m", "1", "2", "3" ]
+}
+[1590451679.480][INFO]: Waiting for pending navigations...
+[1590451679.481][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.565][INFO]: Waiting for pending navigations...
+[1590451679.566][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.566][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE TypeElement
+[1590451679.616][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d791e8c4-2d9e-4186-a15a-f86755374c4a"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1590451679.617][INFO]: Waiting for pending navigations...
+[1590451679.617][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.631][INFO]: Waiting for pending navigations...
+[1590451679.632][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.632][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE ExecuteScript true
+[1590451679.635][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND IsElementEnabled {
+   "id": "d791e8c4-2d9e-4186-a15a-f86755374c4a"
+}
+[1590451679.635][INFO]: Waiting for pending navigations...
+[1590451679.636][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.643][INFO]: Waiting for pending navigations...
+[1590451679.644][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.644][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE IsElementEnabled true
+[1590451679.648][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND ClickElement {
+   "id": "d791e8c4-2d9e-4186-a15a-f86755374c4a"
+}
+[1590451679.649][INFO]: Waiting for pending navigations...
+[1590451679.649][INFO]: Done waiting for pending navigations. Status: ok
+[1590451679.717][INFO]: Waiting for pending navigations...
+[1590451681.392][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451681.526][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451681.647][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451681.748][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.220][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.321][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.422][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.523][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.725][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.828][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451682.930][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.031][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.134][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.235][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.336][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.437][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.538][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.640][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.842][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451683.945][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451684.048][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451684.150][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451684.253][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451684.356][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590451684.418][INFO]: Done waiting for pending navigations. Status: ok
+[1590451684.418][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE ClickElement
+[1590451689.423][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] COMMAND Quit {
+
+}
+[1590451689.423][INFO]: [5a3b4af6a212eec4f14b5a206ab3265a] RESPONSE Quit

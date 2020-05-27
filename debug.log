@@ -1,0 +1,16 @@
+[0509/003128.482:ERROR:file_io_win.cc(179)] CreateFile C:\Users\User\AppData\Local\Temp\scoped_dir16748_961318849\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0510/233346.625:ERROR:file_io_win.cc(179)] CreateFile C:\Users\User\AppData\Local\Temp\scoped_dir1060_1772961834\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0511/000721.764:ERROR:file_io_win.cc(179)] CreateFile C:\Users\User\AppData\Local\Temp\scoped_dir11232_2022945849\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0511/005037.365:ERROR:file_io_win.cc(179)] CreateFile C:\Users\User\AppData\Local\Temp\scoped_dir21972_786436827\Crashpad\settings.dat: The process cannot access the file because it is being used by another process. (0x20)
+[0523/142203.808:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/142203.812:ERROR:exception_snapshot_win.cc(98)] thread ID 12936 not found in process
+[0523/143947.609:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.612:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0523/143947.614:ERROR:exception_snapshot_win.cc(98)] thread ID 12080 not found in process
