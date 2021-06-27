@@ -5,7 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Recap {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		
 		
@@ -22,6 +22,9 @@ public class Recap {
 		String title=driver.getTitle();
 		System.out.println("Title of the page is: "+title);
 		
+		driver.manage().window().maximize();
+		
+		Thread.sleep(2000);
 		driver.quit();
 		
 	}
