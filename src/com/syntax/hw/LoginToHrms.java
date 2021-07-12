@@ -15,7 +15,7 @@ public class LoginToHrms {
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		String filePath=System.getProperty("user.dir")+"\\configs\\hw.properties";
+		String filePath=System.getProperty("user.dir")+"\\configs\\configuration.properties";
 		
 		FileInputStream fis=new FileInputStream(filePath);
 		

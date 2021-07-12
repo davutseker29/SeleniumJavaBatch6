@@ -9,7 +9,7 @@ public class GetAttributeMethod {
 
 	public static void main(String[] args) {
 
-		String url = "http://166.62.36.207/humanresources/symfony/web/index.php/dashboard";
+		String url = "http://hrm.syntaxtechs.net/humanresources/symfony/web/index.php/auth/login";
 
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 

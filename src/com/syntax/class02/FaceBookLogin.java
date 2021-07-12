@@ -19,7 +19,7 @@ public class FaceBookLogin {
 		
 		driver.findElement(By.id("pass")).sendKeys("Ankarasd06");
 		
-		driver.findElement(By.id("u_0_b")).click();
+		driver.findElement(By.tagName("u_0_c_6E"));
 				
 		Thread.sleep(300);
 		

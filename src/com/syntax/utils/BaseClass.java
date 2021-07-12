@@ -30,7 +30,7 @@ public class BaseClass {
 			throw new RuntimeException("Browser is not supported");
 		}
 
-		//driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
 		driver.get(ConfigsReader.getProperty("url"));
 		
