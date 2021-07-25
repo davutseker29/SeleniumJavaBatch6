@@ -25,6 +25,8 @@ public class FacebookSignUp extends CommonMethods{
 		selectDdValue(dayDD, "5");
 		
 		Thread.sleep(3000);
+		
+		getWaitObject();
 
 		tearDown();
 	}
