@@ -48,7 +48,7 @@ public class AmericanAirlineCalendar {
 				while (!flag) {
 
 					String dMonth = driver.findElement(By.xpath("//div[contains(@class,'ui-corner-left')]/div")).getText();
-					if (dMonth.equals("July 2020")) {
+					if (dMonth.equals("August 2021")) {
 						List<WebElement> depCells = driver.findElements(
 								By.xpath("//div[contains(@class,'ui-corner-left')]/following-sibling::table/tbody/tr/td"));
 
@@ -76,7 +76,7 @@ public class AmericanAirlineCalendar {
 				while (!flag) {
 
 					String rMonth = driver.findElement(By.xpath("//div[contains(@class,'ui-corner-left')]/div")).getText();
-					if (rMonth.equals("November 2020")) {
+					if (rMonth.equals("November 2021")) {
 
 						List<WebElement> returnCells = driver.findElements(
 								By.xpath("//div[contains(@class,'ui-corner-left')]/following-sibling::table/tbody/tr/td"));

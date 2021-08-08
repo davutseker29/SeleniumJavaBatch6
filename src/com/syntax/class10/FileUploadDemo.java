@@ -18,7 +18,7 @@ public class FileUploadDemo {
 		
 		//We simply use sendkeys() method to upload the file.
 		//locate the choose element and send() path of file to it.
-		driver.findElement(By.id("file-upload")).sendKeys("C:\\Users\\User\\Pictures\\Screenshots\\Screenshot (50).png");
+		driver.findElement(By.id("file-upload")).sendKeys("C:\\Users\\User\\eclipse-workspace\\SeleniumJavaBatch6\\screenshots\\HRMS\\dashboards.png");
 		
 		//click on upload button
 		driver.findElement(By.id("file-submit")).click();

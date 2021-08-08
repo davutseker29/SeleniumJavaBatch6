@@ -10,14 +10,15 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 import com.syntax.utils.BaseClass;
+import com.syntax.utils.CommonMethods;
 import com.syntax.utils.ConfigsReader;
 
-public class ScreenShotDemo {
+public class ScreenShotDemo extends CommonMethods {
 
 	public static void main(String[] args) throws InterruptedException{
 		
 		//url=http://166.62.36.207/humanresources/symfony/web/index.php/auth/login
-		WebDriver driver=BaseClass.setUp();
+		setUp();
 		
 		driver.findElement(By.name("txtUsername")).sendKeys(ConfigsReader.getProperty("username"));
 		driver.findElement(By.id("txtPassword")).sendKeys(ConfigsReader.getProperty("password"));
@@ -31,7 +32,7 @@ public class ScreenShotDemo {
 		File sourceFile=ts.getScreenshotAs(OutputType.FILE);
 		//Copy the file from source to a another destination 
 		try {
-			FileUtils.copyFile(sourceFile, new File("screenshots/HRMS/dashboard.png"));
+			FileUtils.copyFile(sourceFile, new File("screenshots/HRMS/dashboards.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
